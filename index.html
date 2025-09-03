@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brazilio - Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul class="navMenu">
+          <li><a href="./coming_soon.html">Home</a></li>
+          <li><a href="./coming_soon.html">Our Story</a></li>
+        </ul>
+        <img src="assets/logo.webp" alt="Brazilio Coffee Logo" loading="lazy" />
+        <button id="burgerBtn">☰</button>
+        <ul class="navMenu">
+          <li><a href="./coming_soon.html">Branches</a></li>
+          <li><a href="./coming_soon.html">Order</a></li>
+        </ul>
+      </div>
+      <ul id="dropdown">
+        <li><a href="./coming_soon.html">Home</a></li>
+        <li><a href="./coming_soon.html">Our Story</a></li>
+        <li><a href="./coming_soon.html">Branches</a></li>
+        <li><a href="./coming_soon.html">Order</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Menu</h1>
+      <ul>
+        <li>
+          <button class="menuBtn">Pizza</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/pizza_1.webp"
+              class="menu"
+              alt="Pizza Variety 1"
+              loading="lazy"
+            />
+            <img
+              src="assets/pizza_2.webp"
+              class="menu"
+              alt="Pizza Variety 2"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Pasta</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/pasta.webp"
+              class="menu"
+              alt="Pasta Dish"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Main Dish</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/main_dish.webp"
+              class="menu"
+              alt="Main Dish"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Burger</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/burger.webp"
+              class="menu"
+              alt="Burger"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Sandwich</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/sandwich.webp"
+              class="menu"
+              alt="Sandwich"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Appetizer</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/appetizers.webp"
+              class="menu"
+              alt="Appetizer"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Salad</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/salad.webp"
+              class="menu"
+              alt="Salad"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Bakery</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/bakery.webp"
+              class="menu"
+              alt="Bakery Items"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Desserts</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/deserts.webp"
+              class="menu"
+              alt="Desserts"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Hot Drinks</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/hot_drinks_1.webp"
+              class="menu"
+              alt="Hot Drink 1"
+              loading="lazy"
+            />
+            <img
+              src="assets/hot_drinks_2.webp"
+              class="menu"
+              alt="Hot Drink 2"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Ice Drinks</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/ice_drinks_1.webp"
+              class="menu"
+              alt="Iced Drink 1"
+              loading="lazy"
+            />
+            <img
+              src="assets/ice_drinks_2.webp"
+              class="menu"
+              alt="Iced Drink 2"
+              loading="lazy"
+            />
+          </div>
+        </li>
+        <li>
+          <button class="menuBtn">Ice Cream</button>
+          <div class="hidden fade-up menu-container">
+            <img
+              src="assets/ice_cream.webp"
+              class="menu"
+              alt="Ice Cream"
+              loading="lazy"
+            />
+          </div>
+        </li>
+      </ul>
+
+      <!-- Overlay for enlarged image -->
+      <div id="overlay" class="hidden">
+        <span id="closeBtn">&times;</span>
+        <img id="overlayImage" src="" alt="Enlarged Menu Item" loading="lazy" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo-container">
+          <img
+            class="footer-logo"
+            src="./assets/logo2.webp"
+            alt=""
+            loading="lazy"
+          />
+          <div class="footer-social">
+            <a
+              href="https://www.facebook.com/BrazilioCoffeeStory"
+              target="_blank"
+              ><img src="assets/facebook.png" alt="" loading="lazy"
+            /></a>
+            <a href="https://x.com/Braziliocoffee" target="_blank"
+              ><img src="assets/x.png" alt="" loading="lazy"
+            /></a>
+            <a href="https://instagram.com/brazilio.coffee" target="_blank"
+              ><img src="assets/instagram.png" alt="" loading="lazy"
+            /></a>
+            <a href="https://www.tiktok.com/@brazilio.coffee" target="_blank"
+              ><img src="assets/tiktok.png" alt="" loading="lazy"
+            /></a>
+            <a href="https://www.youtube.com/@brazilioegypt8173" target="_blank"
+              ><img src="assets/youtube.png" alt="" loading="lazy"
+            /></a>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d109184.30537785587!2d29.943772!3d31.220465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c4b8bc654461%3A0x62b31c9793d3ae17!2sBRAZILIO%20COFFEE%20STORY!5e0!3m2!1sen!2seg!4v1755470760945!5m2!1sen!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <p>
+        Made by&nbsp<a href="https://alilool.github.io/My-portfolio/"
+          >Ali Elsayed</a
+        >
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

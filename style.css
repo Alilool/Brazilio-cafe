@@ -292,7 +292,6 @@ iframe {
     }
 
     .footer-container {
-
         gap: 20px;
     }
 
@@ -334,8 +333,12 @@ iframe {
     }
 
     iframe {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .footer-social {
+        gap: 5px;
     }
 
 }
